@@ -1,8 +1,7 @@
 #' @title oil
-#' @description oil data
+#' @description Dataset on oil investment
 #' @format A data frame with 53 rows and 12 variables:
 #' \describe{
-#'   \item{\code{X1}}{double Index}
 #'   \item{\code{dur}}{double duration of the appraisal lag in months (time span between discovery of an oil field and beginning of development, i.e. approval of annex 😎.}
 #'   \item{\code{size}}{double size of recoverable reserves in millions of barrels}
 #'   \item{\code{waterd}}{double depth of the sea in metres}
@@ -15,5 +14,5 @@
 #'   \item{\code{p98}}{double adaptive expectations (with parameter theta=0.98) for the real after–tax oil prices formed at the time of annex B approval}
 #'   \item{\code{varp98}}{double volatility of the adaptive expectations (with parameter theta=0.98) for real after tax oil prices measured as the squared recursive standard errors of the regression of pt on pte(theta)}
 #'}
-#' @details DETAILS
+#' @details  [Rdatasets from vincentarelbundock github](www.vincentarelbundock.github.io/Rdatasets/datasets.
 "oil"
