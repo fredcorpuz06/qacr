@@ -30,7 +30,7 @@ an other category. Cannot specifiy both maxcat and minp. Default: NULL}
 A data.frame
 }
 \description{
-FUNCTION_DESCRIPTION
+Function to calculate frequency distributions for categorical variables
 }
 \details{
 The function \code{tab} will calculate the frequency distribution

@@ -17,6 +17,6 @@
 #' @keywords datasets
 #' @name venues
 #' @usage venues
-#' @source [link]: (https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues)
+#' @source \href{https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues}{Link}
 
 NULL
