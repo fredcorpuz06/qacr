@@ -1,0 +1,27 @@
+#' @title soils
+#' @description Soil Compositions of Physical and Chemical Characteristics
+#' @format A data frame with 48 rows and 14 variables:
+#' \describe{
+#'   \item{\code{X1}}{double Dataset index}
+#'   \item{\code{Group}}{double a factor with 12 levels, corresponding to the combinations of Contour and Depth}
+#'   \item{\code{Contour}}{character a factor with 3 levels: Depression Slope Top}
+#'   \item{\code{Depth}}{character a factor with 4 levels: 0-10 10-30 30-60 60-90}
+#'   \item{\code{Gp}}{character a factor with 12 levels, giving abbreviations for the groups: D0 D1 D3 D6 S0 S1 S3 S6 T0 T1 T3 T6}
+#'   \item{\code{Block}}{double a factor with levels 1 2 3 4}
+#'   \item{\code{pH}}{double soil pH}
+#'   \item{\code{N}}{double total nitrogen in %}
+#'   \item{\code{Dens}}{double bulk density in gm/cm$^3$}
+#'   \item{\code{P}}{double total phosphorous in ppm}
+#'   \item{\code{Ca}}{double calcium in me/100 gm.}
+#'   \item{\code{Mg}}{double magnesium in me/100 gm.}
+#'   \item{\code{K}}{double phosphorous in me/100 gm.}
+#'   \item{\code{Na}}{double sodium in me/100 gm.}
+#'   \item{\code{Conduc}}{double conductivity} 
+#'}
+#' @docType data
+#' @keywords datasets
+#' @name soils
+#' @usage soils
+#' @details DETAILS
+#' @source [Rdatasets from vincentarelbundock github](https://vincentarelbundock.github.io/Rdatasets/datasets.html)
+NULL
