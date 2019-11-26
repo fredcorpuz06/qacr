@@ -18,6 +18,9 @@
   \item{\code{p98}}{double adaptive expectations (with parameter theta=0.98) for the real after–tax oil prices formed at the time of annex B approval}
   \item{\code{varp98}}{double volatility of the adaptive expectations (with parameter theta=0.98) for real after tax oil prices measured as the squared recursive standard errors of the regression of pt on pte(theta)}
 }}
+\source{
+Datasets from \href{https://vincentarelbundock.github.io/Rdatasets/datasets.html}{vincentarelbundock} on github.
+}
 \usage{
 oil
 }
@@ -25,6 +28,6 @@ oil
 Dataset on oil investment
 }
 \details{
-[Rdatasets from vincentarelbundock github](www.vincentarelbundock.github.io/Rdatasets/datasets.
+DETAILS
 }
 \keyword{datasets}

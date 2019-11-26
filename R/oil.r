@@ -19,5 +19,5 @@
 #' @name oil
 #' @usage oil
 #' @details DETAILS
-#' @source [Rdatasets from vincentarelbundock github](hhttps://vincentarelbundock.github.io/Rdatasets/datasets.html
+#' @source Datasets from \href{https://vincentarelbundock.github.io/Rdatasets/datasets.html}{vincentarelbundock} on github.
 NULL

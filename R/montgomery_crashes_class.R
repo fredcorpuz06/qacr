@@ -30,4 +30,5 @@
 #'   \item{\code{Longitude}}{X coordinate of crash location.}
 #'}
 #' @details DETAILS
+#' @name crashes
 NULL

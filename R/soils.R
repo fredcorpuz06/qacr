@@ -9,14 +9,14 @@
 #'   \item{\code{Gp}}{character a factor with 12 levels, giving abbreviations for the groups: D0 D1 D3 D6 S0 S1 S3 S6 T0 T1 T3 T6}
 #'   \item{\code{Block}}{double a factor with levels 1 2 3 4}
 #'   \item{\code{pH}}{double soil pH}
-#'   \item{\code{N}}{double total nitrogen in %}
+#'   \item{\code{N}}{double total nitrogen in \%}
 #'   \item{\code{Dens}}{double bulk density in gm/cm$^3$}
 #'   \item{\code{P}}{double total phosphorous in ppm}
 #'   \item{\code{Ca}}{double calcium in me/100 gm.}
 #'   \item{\code{Mg}}{double magnesium in me/100 gm.}
 #'   \item{\code{K}}{double phosphorous in me/100 gm.}
 #'   \item{\code{Na}}{double sodium in me/100 gm.}
-#'   \item{\code{Conduc}}{double conductivity} 
+#'   \item{\code{Conduc}}{double conductivity}
 #'}
 #' @docType data
 #' @keywords datasets
