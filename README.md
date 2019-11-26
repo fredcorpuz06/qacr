@@ -1,3 +1,4 @@
+[graphs](graphs.png)
 
 # qacr
 
