@@ -4,13 +4,14 @@
 \alias{stats}
 \title{stats}
 \usage{
-stats(data, x, statistics = c("n", "mean", "sd"), na.rm = TRUE,
-  digits = 2, ...)
+stats(data, x, ...)
 }
 \arguments{
 \item{data}{data frame}
 
 \item{x}{numeric variable in data (unquoted)}
+
+\item{...}{list of grouping variables}
 
 \item{statistics}{statistics to calculate (any function that produces a
 value), Default: c("n", "mean", "sd")}
@@ -19,15 +20,24 @@ value), Default: c("n", "mean", "sd")}
 variables, Default: TRUE}
 
 \item{digits}{number of decimal digits to print, Default: 2}
-
-\item{...}{list of grouping variables}
 }
 \value{
-a data frame, where columns are grouping variables (optional) and statistics
+a data frame, where columns are grouping variables (optional) and
+statistics
 }
 \description{
-Descriptive statistics for a quantitative variable
+This function provides descriptive statistics for a quantitative
+variable. You can provide user-defined statistics.
 }
 \examples{
-stats(mtcars, mpg, c("n", "mean", "sd"), na.rm = TRUE, digits = 0, am, gear)
+# If no keyword arguments are provided, default values are used
+stats(mtcars, mpg, am, gear)
+
+# You can supply as many (or no) grouping variables as needed
+stats(mtcars, mpg)
+stats(mtcars, mpg, am, gear, cyl, carb)
+
+# You can input user-defined functions
+my_n <- function(xs) length(xs)
+stats(mtcars, mpg, statistics = c("my_n"), am, gear)
 }

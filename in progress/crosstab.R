@@ -45,8 +45,6 @@ crosstab <- function(data, rowvar, colvar,
   return(t)
 }
 
-crosstab(testdata, B, C, type="rowpercent", total=FALSE)
-
 #sample output with test data
 library(dplyr)
 library(tidyr)
@@ -55,6 +53,8 @@ A<-c(1:10, 1:10)
 B<-c(NA, 1, 2, 3, NA, 2, 1, 1,2, 3)
 C<-c(2, 3, 3, 2, 1, 1, NA, 1, 2, NA)
 testdata<-data.frame(A, B, C)
+
+crosstab(testdata, B, C, type="rowpercent", total=FALSE)
 
 #if na.rm == TRUE
 # rowvar = cyl, colvar = gear type = "freq"

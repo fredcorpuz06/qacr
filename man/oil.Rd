@@ -6,7 +6,6 @@
 \title{oil}
 \format{A data frame with 53 rows and 12 variables:
 \describe{
-  \item{\code{X1}}{double Index}
   \item{\code{dur}}{double duration of the appraisal lag in months (time span between discovery of an oil field and beginning of development, i.e. approval of annex 😎.}
   \item{\code{size}}{double size of recoverable reserves in millions of barrels}
   \item{\code{waterd}}{double depth of the sea in metres}
@@ -23,9 +22,9 @@
 oil
 }
 \description{
-oil data
+Dataset on oil investment
 }
 \details{
-DETAILS
+[Rdatasets from vincentarelbundock github](www.vincentarelbundock.github.io/Rdatasets/datasets.
 }
 \keyword{datasets}
