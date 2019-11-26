@@ -1,0 +1,58 @@
+---
+title: "tab_vingette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{tab_vingette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(qacr)
+
+```
+
+
+```{r, include=TRUE}
+tab(venues, state)
+```
+Creates a table with the number of venues in each state and calculates the percent of toal venues in each state
+
+
+```{r, include=T}
+tab(venues, state, sort = T)
+```
+Sorts the previous table based on number of venues
+
+```{r, include=T}
+tab(venues, state, sort = T, na.rm = T, total = T)
+```
+Removes all missing observations from the data set and adds a total row to the table
+
+
+```{r, include=T}
+tab(venues, state, sort = T, total = T, digits = 4)
+```
+Rounds all percentages off to the fourth decimal place
+
+
+```{r, include=T}
+tab(venues, state, sort = T, total = T, maxcat = 15)
+```
+Only makes a table of the 15 states with the most venues and adds all other states up in an other category
+
+
+```{r, include=T}
+tab(venues, state, sort = T, total = T, minp = .1)
+```
+Only makes a table with states that have over a tenth of the overall venues, adds up all others in an other category
+
+
+

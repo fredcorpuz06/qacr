@@ -1,5 +1,5 @@
 #' @title Frequency Distribution for a categorical variable
-#' @description FUNCTION_DESCRIPTION
+#' @description Function to calculate frequency distributions for categorical variables
 #' @param data A dataframe
 #' @param x A factor in the dataframe
 #' @param sort Sort levels from high to low, Default: FALSE

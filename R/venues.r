@@ -4,19 +4,19 @@
 #' type of sports are performed there.
 #' @format A data frame with 824 rows and 8 variables:
 #' \describe{
-#'   \item{\code{venueid}}{integer Unique ID for venue}
-#'   \item{\code{name}}{character Venue Name}
-#'   \item{\code{city}}{character Venue's city}
-#'   \item{\code{state}}{integer Venue's state}
-#'   \item{\code{zip}}{integer Venue Zip code}
-#'   \item{\code{status}}{integer State of venue: CLOSED, OPEN or UNDER CONSTRUCTION}
-#'   \item{\code{country}}{character Country of Venue}
-#'   \item{\code{type}}{integer NAICS Code description of venue} 
+#'   \item{\code{venueid}}{integer. Unique ID for venue}
+#'   \item{\code{name}}{character. Venue Name}
+#'   \item{\code{city}}{character. Venue's city}
+#'   \item{\code{state}}{integer. Venue's state}
+#'   \item{\code{zip}}{integer. Venue's Zip code}
+#'   \item{\code{status}}{integer. State of venue: CLOSED, OPEN or UNDER CONSTRUCTION}
+#'   \item{\code{country}}{character. Country of Venue}
+#'   \item{\code{type}}{integer. NAICS Code description of venue}
 #'}
 #' @docType data
 #' @keywords datasets
 #' @name venues
 #' @usage venues
-#' @source <https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues>
-#' @details DETAILS
+#' @source \href{https://hifld-geoplatform.opendata.arcgis.com/datasets/major-sport-venues}{Link}
+
 NULL
