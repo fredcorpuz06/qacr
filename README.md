@@ -1,4 +1,4 @@
-[graphs](graphs.png)
+![statfunctions](graphs.png)
 
 # qacr
 
